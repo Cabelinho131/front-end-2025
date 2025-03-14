@@ -1,3 +1,3 @@
 Git clone = clona o repositorio do github(usado em projetos em conjunto para clonar o trabalho feito em outra maquina)
 Git Add . = adiciona uma modificação seja um arquivo ou qualquer outra coisa
-Git commit -m "comentario qualquer" = adiciona o comentario que voce quiser. voce pode comentar sobre essa modificação feita.
+Git commit -m "comentario qualquer" = Comita essa modificação e adiciona o comentario que voce quiser. voce pode comentar sobre essa modificação feita.
