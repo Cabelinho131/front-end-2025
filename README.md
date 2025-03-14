@@ -4,4 +4,4 @@ sempre que vc fazer alguma alteração no vscode vc tem que usar o comando git a
 
 git add= Preparação (prepara o estado modificado usando esse comando)
 
-git commit= Cuma vez que o estado está preparado ele permite ao programador adicionar um comentário sobre essa modificação 
+git commit= Uma vez que o estado está preparado ele permite ao programador adicionar um comentário sobre essa modificação 
