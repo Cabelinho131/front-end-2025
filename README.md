@@ -1,7 +1,6 @@
 Exemplo de repositorio para aprendermos a usar o github
 
-sempre que vc fazer alguma alteração no vscode vc tem que usar o comando git add preparar o texto para commit e o git commit confirma o texto preparado no seu desktop local. quando vc adiciona algo na "nuvem" que é no github vc só precisa usar o  comando commit para confirmar sua adição nao precisando preparar nada usando o comando git add
+Sempre que vc fazer alguma alteração no vscode vc tem que usar o comando (Git add .) para adicionar essa modificação (estado preparado).
+O comando (git commit -m "") comita a alteração feita no seu desktop local e confirma para ser adicionado no github, dentro das aspas voce pode comentar sobre esse comit feito. 
+Agora voce precisa usar o comando (Git push) para de fato adicionar essa modificação na nuvem (Github).
 
-git add= Preparação (prepara o estado modificado usando esse comando)
-
-git commit= Uma vez que o estado está preparado ele permite ao programador adicionar um comentário sobre essa modificação 
