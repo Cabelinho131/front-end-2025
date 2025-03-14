@@ -2,3 +2,5 @@ Git clone = clona o repositorio do github(usado em projetos em conjunto para clo
 Git Add . = adiciona uma modificação seja um arquivo ou qualquer outra coisa
 Git commit -m "comentario qualquer" = Comita essa modificação e adiciona o comentario que voce quiser. voce pode comentar sobre essa modificação feita.
 Git push = Esse comando manda toda modificação feita para a nuvem (github).
+Git pull = Puxa todas as alterações feitas no github para o desktop local, ideal quando voce ja tem a pasta no pc e precisa puxar apenas uma alteração
+feita como um novo texto adicionado ja o git clone ele puxa a pasta inteira como voce ja tem a pasta acaba ficando com duas pastas de mesmo nome.
