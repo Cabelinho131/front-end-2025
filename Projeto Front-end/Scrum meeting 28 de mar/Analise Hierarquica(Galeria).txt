@@ -2,5 +2,7 @@
 1.1 Separar fotos por edições
 2. Criar Aba para a competição atual
 3. Definir a locação de cada elementos nas paginas
+4. Usar Design das outras paginas para criação dessa
 4. Adicionar as fotos nas abas
 4.1 Fotos do Ambiente, Equipes participantes e CANSAT
+5. Programar usando HTML, CSS, javascript
