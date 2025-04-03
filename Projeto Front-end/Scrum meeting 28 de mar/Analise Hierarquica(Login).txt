@@ -3,6 +3,7 @@
 1.2 Pedir senha
 2. Cria aba para não inscritos
 2.1 Criar forms para inscrições
+2.2 Pedir informações importanes para garantir a segurança do login
 3 Criar aba para "escqueci minha senha"
 3.1 Confirmar o usuario
 3.2 Criar metodos de Verificação de identidade
