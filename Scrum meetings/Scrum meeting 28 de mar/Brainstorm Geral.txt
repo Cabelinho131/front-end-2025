@@ -1,0 +1,24 @@
+Brainstorm geral
+- Aba de competições anteriores
+- Aba da competição atual
+- Página Sobre nós
+- Página Home
+- Header com as páginas
+- Página Contato
+- Informação de contato no footer
+- Redes sociais
+- Página de inscrição
+- Colaboradores no body do home
+- Página de atualizações
+- Estilo inspirado no wcrc
+- Página sobre satélites cansat
+- Agenda da competição
+- Regras da competição
+- Premiação
+- Detalhes da inscrição
+- Tabela de competidores
+- Galeria
+- Bell de notificações
+- Esqueci minha senha
+- Form de inscrição
+- Botão de inscreva-se na home
