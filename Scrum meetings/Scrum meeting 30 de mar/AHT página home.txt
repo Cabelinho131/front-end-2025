@@ -1,0 +1,9 @@
+1. Definir quais serão todas as páginas do site
+2 Definir um estilo de design
+	2.1 Definir uma logo
+	2.2 Usar a logo de referência para definir o estilo
+3. Definir a posição e ordem dos elementos acordados
+4. Selecionar as imagens necessárias
+5. Escrever os textos necessários
+6. Criar um protótipo no figma
+7. Codar a página em html, css e javascript
