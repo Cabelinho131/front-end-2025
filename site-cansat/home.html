@@ -6,7 +6,26 @@
     <title>Competições</title>
     <style>
 
-                /* Header 1 */
+        /* Header 1 */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
 
         li, a {
             font-family: Arial, Helvetica, sans-serif;
@@ -238,6 +257,7 @@
             background-color: #202B52;
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 20px;
         }
 
         .footer-Info {
@@ -275,76 +295,85 @@
 
     </header>
 
-<section class="primeira">
-    <h1>LOREM IPSUM <br><a href="inscricao.html"><button>Inscreva-se já!</button></a>
-    </h1>
+    <main>
 
-</section>
+        <section class="primeira">
+            <h1>LOREM IPSUM <br><a href="inscricao.html"><button>Inscreva-se já!</button></a>
+            </h1>
+        </section>
 
-<section class="segunda">
-    <div class="card">
-        <div class="text-section">
-          <h2>Sobre a competição</h2>
-          <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum. Morbi fermentum tincidunt lorem, sit amet posuere ipsum aliquet in. Suspendisse felis lacus, tincidunt eu dui.</p>
+        <section class="segunda">
+
+            <div class="card">
+
+                <div class="text-section">
+
+                    <h2>Sobre a competição</h2>
+                    <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum. Morbi fermentum tincidunt lorem, sit amet posuere ipsum aliquet in. Suspendisse felis lacus, tincidunt eu dui.</p>
+
+                </div>
+
+                <div class="img-section">
+                    IMG
+                </div>
+            </div>
+        </section>
+
+        <section class="terceira">
+            <div class="tcontainer">
+                <h1>Atualizações</h1>
+                <div class="tcards">
+                <div class="tcard">
+                    <h3>Lorem</h3>
+                    <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum.</p>
+                </div>
+                <div class="tcard">
+                    <h3>Lorem</h3>
+                    <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum.</p>
+                </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="quarta">
+            <div class="qconteiner">
+                <h2>Patrocinadores</h2>
+                <div class="patrocinadores">
+                <div class="patrocinadores-box">IMG</div>
+                <div class="patrocinadores-box">IMG</div>
+                <div class="patrocinadores-box">IMG</div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-Info">
+            
+            <div>
+                <h2>Contato:</h2>
+                <p>
+                    Telefone: +5521998765432 <br>
+                    Email: empresa@gmail.com
+                </p>
+            </div>
+
+            <div>
+                <h2>Endereço:</h2>
+                <p>
+                    Av. Pedro da Silva Couto
+                </p>
+            </div>
+
         </div>
-        <div class="img-section">
-          IMG
-        </div>
-      </div>
-</section>
 
-<section class="terceira">
-    <div class="tcontainer">
-        <h1>Atualizações</h1>
-        <div class="tcards">
-          <div class="tcard">
-            <h3>Lorem</h3>
-            <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum.</p>
-          </div>
-          <div class="tcard">
-            <h3>Lorem</h3>
-            <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum.</p>
-          </div>
-        </div>
-      </div>
+        <p id="copyright">&copy NomeDaEmpresa. Todos os direitos reservados.</p>
 
-</section>
-
-<section class="quarta">
-    <div class="qconteiner">
-        <h2>Patrocinadores</h2>
-        <div class="patrocinadores">
-          <div class="patrocinadores-box">IMG</div>
-          <div class="patrocinadores-box">IMG</div>
-          <div class="patrocinadores-box">IMG</div>
-        </div>
-      </div>
-
-</section>
-<footer>
-
-    <div class="footer-Info">
-        
-        <div>
-            <h2>Contato:</h2>
-            <p>
-                Telefone: +5521998765432 <br>
-                Email: empresa@gmail.com
-            </p>
-        </div>
-
-        <div>
-            <h2>Endereço:</h2>
-            <p>
-                Av. Pedro da Silva Couto
-            </p>
-        </div>
-
-    </div>
-
-    <p id="copyright">&copy NomeDaEmpresa. Todos os direitos reservados.</p>
-
-</footer>
+    </footer>
 </body>
 </html>
 

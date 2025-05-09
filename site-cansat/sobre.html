@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
 
         /* Header 1 */
 
@@ -184,6 +202,34 @@
         font-weight: bold;
         }
 
+        /* Footer */
+
+        footer {
+            background-color: #202B52;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 20px;
+        }
+
+        #footer-amarelo {
+            background-color: #EFAB1A;
+            color: #202B52;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .footer-Info {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        #copyright {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+        
     </style>
 </head>
 <body>
@@ -203,27 +249,33 @@
         <a class="cta" href="inscricao.html"><button id="botao-insc">Inscrição</button></a>
 
     </header>
-    <section class="primeira">
-        <div class="text-section">
-            <h2>Quem somos?</h2>
-            <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum. Morbi fermentum tincidunt lorem, sit amet posuere ipsum aliquet in. Suspendisse felis lacus, tincidunt eu dui.</p>
-          </div>
-          <div class="img-section">
-            IMG
-          </div>
-        </div>
-    </section>
 
-    <section class="segunda">
-        <div class="qconteiner">
-            <h2>Redes Sociais</h2>
-            <div class="patrocinadores">
-              <div class="patrocinadores-box"><a href=""><img src="imagens/LogoInstagram.svg" alt="nosso instagram" width="200"></a></div>
-              <div class="patrocinadores-box"><a href=""><img src="imagens/LogoFacebook.svg" alt="nosso facebook" width="200"></a></div>
-              <div class="patrocinadores-box"><a href=""><img src="imagens/LogoYoutube.svg" alt="nosso youtube" width="200"></a></div>
+    <main>
+
+        <section class="primeira">
+            <div class="text-section">
+                <h2>Quem somos?</h2>
+                <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum. Morbi fermentum tincidunt lorem, sit amet posuere ipsum aliquet in. Suspendisse felis lacus, tincidunt eu dui.</p>
             </div>
-          </div>
-    </section>
+            <div class="img-section">
+                IMG
+            </div>
+            </div>
+        </section>
+
+        <section class="segunda">
+            <div class="qconteiner">
+                <h2>Redes Sociais</h2>
+                <div class="patrocinadores">
+                <div class="patrocinadores-box"><a href=""><img src="imagens/LogoInstagram.svg" alt="nosso instagram" width="200"></a></div>
+                <div class="patrocinadores-box"><a href=""><img src="imagens/LogoFacebook.svg" alt="nosso facebook" width="200"></a></div>
+                <div class="patrocinadores-box"><a href=""><img src="imagens/LogoYoutube.svg" alt="nosso youtube" width="200"></a></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
     <footer>
 
         <div class="footer-Info">
