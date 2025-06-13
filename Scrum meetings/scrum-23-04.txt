@@ -1,0 +1,3 @@
+Scrum meeting 23/04
+
+-Planejamento de reorganização do repo github
