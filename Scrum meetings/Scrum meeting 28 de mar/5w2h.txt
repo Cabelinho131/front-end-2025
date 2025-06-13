@@ -1,9 +1,0 @@
-5w 2h
-
-What?: Um site sobre competição de cansat para o IBMEC
-Why?: Solicitação do cliente: Ibmec
-Who?: João Arthur, Patrick Couto, João Pedro e Matheus Cascaes
-Where?: Ainda não sabemos
-When?: Até o fim do primeiro semestre de 2025
-How?: Usando o Github, VS Code, Figma, Canva, Java Script, HTML e CSS
-How Much?: 2 meses

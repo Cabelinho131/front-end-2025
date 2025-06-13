@@ -2,4 +2,3 @@ Scrum meeting 14/05
 
 - Discutimos o papel de cada um na realização do site vanilla
 - Definimos prioridades e prazos
-- Atualizamos o mapa mental

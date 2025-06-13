@@ -1,4 +1,0 @@
-Scrum meeting 3
-- Fizemos uma AHT da página competições
-- Fizemos uma AHT da página galeria
-- Fizemos uma AHT da página sobre nós

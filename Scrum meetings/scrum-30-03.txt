@@ -1,0 +1,4 @@
+Scrum meeting 2
+- Fizemos uma AHT da página home
+- Fizemos uma AHT da página de login
+- Discutimos o estilo de design
