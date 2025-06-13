@@ -1,0 +1,5 @@
+Scrum meeting 28/05
+
+-Assimilamos o que precisava mudar
+-Preparações para a versão react
+-Definimos o papel de cada um no site React
